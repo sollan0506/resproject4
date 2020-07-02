@@ -1180,6 +1180,20 @@ body {
     left: 47%; 
   }
 
+  /* team Area Start */
+  #team .col-xs-12 .member-box{
+    width: 300px;
+    height: 300px;
+  }
+  #team .member-box>img{
+    width: 300px;
+    height: 300px;
+  }
+  #team .member-box>.caption{
+    width: 300px;
+    height: 300px;
+  }
+
   /* pricing Area Start */
   #pricing .col-xs-12{
     padding: 0;
