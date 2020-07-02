@@ -179,7 +179,7 @@ body {
   margin: 0 auto 21px auto;
   font: 400 1.4rem 'Open Sans', sans-serif;
 }
-#intro #slides .btn-default {
+#intro #slides .btn-default+a {
   margin-left: 20px;
 }
 
@@ -1145,6 +1145,14 @@ body {
   #intro #slides .caption h2{
     font: bold 2.6rem 'Nanum Gothic', sans-serif;
   }
+  #intro #slides .caption p{
+    width: 70%; height: auto;
+    margin-bottom: 21px;
+  }
+  #intro #slides .caption .btn-default{
+    width: 25%;
+    font-size: 1.2rem;
+  }
 
   /* portfolio Area Start */
   #portfolio #gallery .col-xs-12{
@@ -1158,13 +1166,13 @@ body {
     text-align: center;
   }
   #portfolio #gallery .caption-box .link-box{
-    margin: 25% auto 21px auto;
+    margin: 30% auto 21px auto;
   }
   #portfolio #gallery .caption-box h4{
     margin-bottom: 21px;
   }
   #portfolio #gallery .caption-box p{
-    display: block;
+    display: none;
   } 
 
   /* count Area Start */
