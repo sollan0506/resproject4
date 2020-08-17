@@ -89,14 +89,6 @@ body {
 
 #navi .container #gnb li a:hover{color: #c00;}
 
-/* navbar-right gnb */
-/* #navi #gnb .navbar-right {
-  background-color: #fff;
-}
-#navi #gnb .navbar-right li a {
-  color: #000;
-} */
-
 /* navbar-toggle button */
 #navi .navbar-toggle{
   border-radius: 0;
