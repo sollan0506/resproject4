@@ -1,9 +1,9 @@
 $(window).load(function(){
-  // Gallery 초기값 설정
+  // isotope 초기 설정
   var container = $('#gallery');
 
   container.isotope({
-    itemSelector: '.grid-item'
+    itemSelector: '.grid-item'    //레이아웃에서 아이템으로 쓰일 자식엘리먼트 명시
   });
 });
 
