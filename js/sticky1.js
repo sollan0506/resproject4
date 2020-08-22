@@ -25,11 +25,11 @@ $(function(){
 
   menuItem.click(function(){
     var el = $(this).attr('href');  //ex) #about
-    // console.log(el);
     var elWrap = $(el);           //ex) $('#about')
-    // console.log(elWrap);
     
     scrollMove(elWrap, 50);
+
+    event.preventDefault();      //기본 동작(링크 이동)을 중단한다.
   });
 
   // 부드러운 이동 함수 만들기

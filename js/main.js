@@ -15,8 +15,6 @@ $(function(){
   gMenu.click(function(){
     gMenu.removeClass('menu-act');
     $(this).addClass('menu-act');
-
-    event.preventDefault();
   });
 
 
